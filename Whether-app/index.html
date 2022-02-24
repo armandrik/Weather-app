@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a4e95c8d4d.js" crossorigin="anonymous"></script>
+    <title>Weather app</title>
+</head>
+
+<body class="body">
+    <div class="error-container">
+        <img src="image/Cat.png" alt="404 error" class="astronaut">
+        <p>please enter a valid city</p>
+    </div>
+    <div class="status-container">
+        <div class="temp">16°</div>
+        <div class="city">Tehran</div>
+        <div class="weather-icon">
+            <img src="Icon/64x64/day/200.png" alt="day" class="icon">
+            <p id="describ">Cloudy</p>
+        </div>
+    </div>
+    <div class="search-bar-container">
+        <div class="search-area">
+            <input type="text" placeholder="Another location" class="city-value">
+            <button class="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <div class="sugestion-city">
+            <p id="new-york">New York</p>
+            <p id="rasht">Rasht</p>
+            <p id="paris">Paris</p>
+            <p id="california">California</p>
+        </div>
+        <hr>
+        <div class="weather-details">
+            <h2>Weather Details</h2>
+            <div class="cloudy-container">
+                <p class="cloudy">Cloudy</p>
+                <p class="cloudy-res">53%</p>
+            </div>
+            <div class="humidity-container">
+                <p class="humidity">Humidity</p>
+                <p class="humidity-res">62%</p>
+            </div>
+            <div class="wind-container">
+                <p class="wind">Wind</p>
+                <p class="wind-res">8km/h</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Js/app.js"></script>
+
+</html>
