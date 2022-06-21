@@ -24,7 +24,7 @@ const paris = document.getElementById("paris");
 const california = document.getElementById("california");
 
 // all classes to change the background
-const backgroundClass = ["body-clear-sky", "body-few-cloud", "body-cloud", "body-rain", "body-thunder", "body-snow", "body-few-cloud", ]
+const backgroundClass = ["body-clear-sky", "body-few-cloud", "body-cloud", "body-rain", "body-thunder", "body-snow", "body-few-cloud", ];
 
 
 
@@ -166,57 +166,75 @@ newyork.addEventListener("click", () => {
             windSpeed.innerHTML = Math.round(wind.speed * 3 / 6) + "km/h";
             if (describ.innerHTML === "clear sky") {
                 dataIcon.src = "Icon/64x64/day/113.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-clear-sky");
             } else if (describ.innerHTML === "few clouds") {
                 dataIcon.src = "Icon/64x64/day/116.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-few-cloud");
             } else if (describ.innerHTML === "scattered clouds") {
                 dataIcon.src = "Icon/64x64/day/119.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-cloud");
             } else if (describ.innerHTML === "broken clouds") {
                 dataIcon.src = "Icon/64x64/day/122.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-cloud");
             } else if (describ.innerHTML === "shower rain") {
                 dataIcon.src = "Icon/64x64/day/266.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "rain") {
                 dataIcon.src = "Icon/64x64/day/293.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "thunderstorm") {
                 dataIcon.src = "Icon/64x64/day/389.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else if (describ.innerHTML === "snow") {
                 dataIcon.src = "Icon/64x64/day/338.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "mist") {
                 dataIcon.src = "Icon/64x64/day/260.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-few-cloud");
             } else if (describ.innerHTML === "thunderstorm with light rain") {
                 dataIcon.src = "Icon/64x64/day/359.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light thunderstorm") {
                 dataIcon.src = "Icon/64x64/day/386.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else if (describ.innerHTML === "drizzle") {
                 dataIcon.src = "Icon/64x64/day/353.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light rain") {
                 dataIcon.src = "Icon/64x64/day/353.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "ragged shower rain") {
                 dataIcon.src = "Icon/64x64/day/359.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light snow") {
                 dataIcon.src = "Icon/64x64/day/350.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "Heavy snow") {
                 dataIcon.src = "Icon/64x64/day/230.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "Light rain and snow") {
                 dataIcon.src = "Icon/64x64/day/317.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "overcast clouds") {
                 dataIcon.src = "Icon/64x64/day/260.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else {
                 body.classList.add("body-few-cloud");
@@ -241,57 +259,75 @@ rasht.addEventListener("click", () => {
             windSpeed.innerHTML = Math.round(wind.speed * 3 / 6) + "km/h";
             if (describ.innerHTML === "clear sky") {
                 dataIcon.src = "Icon/64x64/day/113.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-clear-sky");
             } else if (describ.innerHTML === "few clouds") {
                 dataIcon.src = "Icon/64x64/day/116.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-few-cloud");
             } else if (describ.innerHTML === "scattered clouds") {
                 dataIcon.src = "Icon/64x64/day/119.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-cloud");
             } else if (describ.innerHTML === "broken clouds") {
                 dataIcon.src = "Icon/64x64/day/122.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-cloud");
             } else if (describ.innerHTML === "shower rain") {
                 dataIcon.src = "Icon/64x64/day/266.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "rain") {
                 dataIcon.src = "Icon/64x64/day/293.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "thunderstorm") {
                 dataIcon.src = "Icon/64x64/day/389.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else if (describ.innerHTML === "snow") {
                 dataIcon.src = "Icon/64x64/day/338.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "mist") {
                 dataIcon.src = "Icon/64x64/day/260.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-few-cloud");
             } else if (describ.innerHTML === "thunderstorm with light rain") {
                 dataIcon.src = "Icon/64x64/day/359.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light thunderstorm") {
                 dataIcon.src = "Icon/64x64/day/386.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else if (describ.innerHTML === "drizzle") {
                 dataIcon.src = "Icon/64x64/day/353.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light rain") {
                 dataIcon.src = "Icon/64x64/day/353.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "ragged shower rain") {
                 dataIcon.src = "Icon/64x64/day/359.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light snow") {
                 dataIcon.src = "Icon/64x64/day/350.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "Heavy snow") {
                 dataIcon.src = "Icon/64x64/day/230.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "Light rain and snow") {
                 dataIcon.src = "Icon/64x64/day/317.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "overcast clouds") {
                 dataIcon.src = "Icon/64x64/day/260.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else {
                 body.classList.add("body-few-cloud");
@@ -315,57 +351,75 @@ paris.addEventListener("click", () => {
             windSpeed.innerHTML = Math.round(wind.speed * 3 / 6) + "km/h";
             if (describ.innerHTML === "clear sky") {
                 dataIcon.src = "Icon/64x64/day/113.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-clear-sky");
             } else if (describ.innerHTML === "few clouds") {
                 dataIcon.src = "Icon/64x64/day/116.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-few-cloud");
             } else if (describ.innerHTML === "scattered clouds") {
                 dataIcon.src = "Icon/64x64/day/119.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-cloud");
             } else if (describ.innerHTML === "broken clouds") {
                 dataIcon.src = "Icon/64x64/day/122.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-cloud");
             } else if (describ.innerHTML === "shower rain") {
                 dataIcon.src = "Icon/64x64/day/266.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "rain") {
                 dataIcon.src = "Icon/64x64/day/293.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "thunderstorm") {
                 dataIcon.src = "Icon/64x64/day/389.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else if (describ.innerHTML === "snow") {
                 dataIcon.src = "Icon/64x64/day/338.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "mist") {
                 dataIcon.src = "Icon/64x64/day/260.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-few-cloud");
             } else if (describ.innerHTML === "thunderstorm with light rain") {
                 dataIcon.src = "Icon/64x64/day/359.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light thunderstorm") {
                 dataIcon.src = "Icon/64x64/day/386.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else if (describ.innerHTML === "drizzle") {
                 dataIcon.src = "Icon/64x64/day/353.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light rain") {
                 dataIcon.src = "Icon/64x64/day/353.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "ragged shower rain") {
                 dataIcon.src = "Icon/64x64/day/359.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light snow") {
                 dataIcon.src = "Icon/64x64/day/350.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "Heavy snow") {
                 dataIcon.src = "Icon/64x64/day/230.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "Light rain and snow") {
                 dataIcon.src = "Icon/64x64/day/317.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "overcast clouds") {
                 dataIcon.src = "Icon/64x64/day/260.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else {
                 body.classList.add("body-few-cloud");
@@ -389,57 +443,75 @@ california.addEventListener("click", () => {
             windSpeed.innerHTML = Math.round(wind.speed * 3 / 6) + "km/h";
             if (describ.innerHTML === "clear sky") {
                 dataIcon.src = "Icon/64x64/day/113.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-clear-sky");
             } else if (describ.innerHTML === "few clouds") {
                 dataIcon.src = "Icon/64x64/day/116.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-few-cloud");
             } else if (describ.innerHTML === "scattered clouds") {
                 dataIcon.src = "Icon/64x64/day/119.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-cloud");
             } else if (describ.innerHTML === "broken clouds") {
                 dataIcon.src = "Icon/64x64/day/122.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-cloud");
             } else if (describ.innerHTML === "shower rain") {
                 dataIcon.src = "Icon/64x64/day/266.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "rain") {
                 dataIcon.src = "Icon/64x64/day/293.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "thunderstorm") {
                 dataIcon.src = "Icon/64x64/day/389.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else if (describ.innerHTML === "snow") {
                 dataIcon.src = "Icon/64x64/day/338.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "mist") {
                 dataIcon.src = "Icon/64x64/day/260.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-few-cloud");
             } else if (describ.innerHTML === "thunderstorm with light rain") {
                 dataIcon.src = "Icon/64x64/day/359.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light thunderstorm") {
                 dataIcon.src = "Icon/64x64/day/386.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else if (describ.innerHTML === "drizzle") {
                 dataIcon.src = "Icon/64x64/day/353.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light rain") {
                 dataIcon.src = "Icon/64x64/day/353.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "ragged shower rain") {
                 dataIcon.src = "Icon/64x64/day/359.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "light snow") {
                 dataIcon.src = "Icon/64x64/day/350.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "Heavy snow") {
                 dataIcon.src = "Icon/64x64/day/230.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-snow");
             } else if (describ.innerHTML === "Light rain and snow") {
                 dataIcon.src = "Icon/64x64/day/317.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-rain");
             } else if (describ.innerHTML === "overcast clouds") {
                 dataIcon.src = "Icon/64x64/day/260.png";
+                body.classList.remove(...backgroundClass);
                 body.classList.add("body-thunder");
             } else {
                 body.classList.add("body-few-cloud");
